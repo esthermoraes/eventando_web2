@@ -1,0 +1,114 @@
+/* Colocando a cor em toda a tela html*/
+body{
+    background-color: #ededed !important;
+}
+
+/* Definindo a estilização do elemento com ID "EventosR*/
+.EventosR {
+    font-weight: bold;
+    font-size: 25px;
+    color: #424242;
+    margin-top: 80px;
+}
+
+/* Definindo a estilização do elemento com ID "barraE"*/
+.barraE {
+    margin-top: 20px;
+    background-color: #dccce0;
+    border-radius: 13px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    overflow: auto;
+}
+
+/* Definindo a estilização do elemento com ID "evento"*/
+.evento {
+    width: 150px;
+    height: 100px;
+    border-radius: 9px;
+    margin-left: 35px;
+    border: solid 2px;
+    border-color: #770089;
+    cursor: pointer;
+}
+
+.evento:hover {
+    border: 6px solid #770089;
+    transition-duration: all 0.4s;
+}
+
+/* Definindo a estilização do elemento com ID "MyEventos"*/
+#MyEventos {
+    font-weight: bold;
+    font-size: 50px;
+    color: #770089;
+}
+
+#MyEventos>label {
+    font-size: 34px;
+}
+
+/* Definindo a estilização do elemento com ID "barraMyE"*/
+#barraMyE {
+    background-color: #dccce0;
+    border-radius: 13px;
+    flex-wrap: wrap; /* Adicionado */
+    padding: 25px 0px;
+    padding-right: 20px;
+    overflow: auto;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    white-space: nowrap
+}
+
+.teste{
+    margin-left: 10px !important;
+}
+
+.teste > div{
+    min-width: 100px;
+}
+
+.evento1 {
+    width: 150px;
+    height: 100px;
+    border-radius: 9px;
+    border: solid 2px;
+    border-color: #770089;
+    cursor: pointer;
+}
+
+.evento1:hover {
+    border: 6px solid #770089;
+    transition-duration: all 0.4s;
+}
+
+/* Definindo a estilização do elemento com ID "EventosM" */
+#EventosM {
+    font-weight: bold;
+    font-size: 32px;
+    color: #770089;
+}
+
+thead{
+   background-color: #d9d5d4 !important; 
+}
+
+/* Definindo a estilização do html scrollbar*/
+html ::-webkit-scrollbar {
+    height: 14px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #770089;
+}
+
+html ::-webkit-scrollbar-track {
+    background: #ededed;
+}
+
+html {
+    overflow-x: hidden;
+}

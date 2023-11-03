@@ -1,0 +1,144 @@
+/*Cor de fundo utilizada na tela*/
+body {
+    background-color: #ededed;
+    font-size: 16px;
+}
+
+nav input, header input{
+    width: min(45vw, 700px);
+    height: 1.875rem;
+    border-radius: 8px !important;
+    border: #b25abf 2px solid !important;
+}
+
+.mae {
+    padding: 20px;
+}
+
+.teste {
+    background-color: #dccce0;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.rounded-circle {
+    height: 7rem;
+    width: 7rem;
+    margin: auto;
+    vertical-align: middle;
+    background-color: #770089;
+}
+
+.avatar {
+    margin: 10px 0 -100px 25px !important;
+    background-color: #770089;
+    transition: background-color 0.3s;
+}
+
+.avatar:hover {
+    background-color: #b25abf !important;
+    border: 2px solid #ffffff;
+}
+
+.avatarU {
+    font-size: 5rem;
+    color: #ffffff;
+}
+
+.font-adjust {
+    font-size: 7rem;
+}
+
+.botao {
+    background-color: #770089 !important;
+    border-radius: 8px !important;
+    border: solid 3px #fff !important;
+    width: 100% !important;
+    height: 60px;
+    color: #fff !important;
+    font-size: 1.5rem !important;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.botao:hover {
+    background-color: #b25abf !important;
+    height: 60px;
+}
+
+.bg-secondary-soft {
+    background-color: #ededed !important;
+}
+
+.rounded {
+    border-radius: 10px !important;
+}
+
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.px-4 {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+
+.infos {
+    color: #000;
+    font-weight: bold;
+}
+
+.form-label {
+    font-size: 1.2rem !important;
+    color: #000;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem !important;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #424242;
+    background-color: #ededed;
+    background-clip: padding-box;
+    border: none;
+    border-radius: 5px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-select {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.4rem !important;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #424242;
+    background-color: #ededed;
+    background-clip: padding-box;
+    border: none !important;
+    border-top: solid 1.5px #e2dcdc !important;
+    border-radius: 5px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/* Estilos adicionais para melhorar a responsividade em telas menores */
+@media screen and (max-width: 768px) {
+    .teste {
+        padding: 10px;
+    }
+    
+    .avatar {
+        margin-left: 10px !important;
+    }
+
+    .avatarU {
+        font-size: 3rem;
+    }
+
+    .botao {
+        font-size: 1.2rem !important;
+    }
+}

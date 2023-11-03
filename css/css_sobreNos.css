@@ -1,0 +1,188 @@
+/*Cor de fundo utilizada na tela*/
+body{
+    background-color: #ededed;
+}
+
+.teste{
+    background-color: #dccce0;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+.titulo{
+    font-size: min(3vw, 24px);
+    margin: 0 0 -100px 0;
+    color: #000;
+    font-weight: bold;
+}
+
+.divSobre{
+    background-image: url('./../img/fundoSobre.png');
+    border: solid 3px ;
+    border-color: #770089;
+    border-radius: 13px;
+    width: min(45vw, 650px);
+}
+
+.sobre{
+    color: #ededed;
+    font-size: min(2vw, 14px);
+}
+
+.insta{
+    text-decoration: none; 
+    color:#e0e0e0;
+}
+
+.insta:hover{
+    color:#e0e0e0;
+}
+
+.email{
+    text-decoration: none; 
+    color:#e0e0e0;
+}
+
+.email:hover{
+    color:#e0e0e0;
+}
+
+.whats{
+    text-decoration: none; 
+    color:#e0e0e0;
+}
+
+.whats:hover{
+    color:#e0e0e0;
+}
+
+.titulo-card{
+    font-family: 'Montserrat', sans-serif;
+    color: #770089;
+    font-weight: bold;
+}
+
+.nozes{
+    width: min(45vw, 650px);
+}
+
+.iconI{
+    font-weight: bold;
+}
+/* Definindo a estilização dos elementos com ID definido*/
+
+#esther{
+    width: 17%;
+    height: 28%;
+    border-radius:100%;
+}
+
+#labelE{
+    color: #400049;
+    font-weight: bold;
+    font-size: min(3vw, 18px);
+}
+
+#instaE{
+    font-size: min(3vw, 15px);
+    font-weight: bold;
+    text-decoration: none; 
+    color:#000000;
+}
+
+#instaE:hover{
+    color:#b25abf;
+}
+
+#emailE{
+    font-size: min(3vw, 15px);
+    font-weight: bold;
+    text-decoration: none; 
+    color:#000000;
+}
+
+#emailE:hover{
+    color:#b25abf;
+}
+
+#lorena{
+    width: 17%;
+    height: 28%;
+    border-radius:100%;
+}
+
+#labelL{
+    color: #400049;
+    font-weight: bold;
+    font-size: min(3vw, 18px);
+}
+
+#instaL{
+    font-size: min(3vw, 15px);
+    font-weight: bold;
+    text-decoration: none; 
+    color:#000000;
+}
+
+#instaL:hover{
+    color:#b25abf;
+}
+
+#emailL{
+    font-size: min(3vw, 15px);
+    font-weight: bold;
+    text-decoration: none; 
+    color:#000000;
+}
+
+#emailL:hover{
+    color:#b25abf;
+}
+
+#sofia{
+    width: 17%;
+    height: 28%;
+    border-radius:100%;
+}
+
+#labelS{
+    color: #400049;
+    font-weight: bold;
+    font-size: min(3vw, 18px);
+}
+
+#instaS{
+    font-size: min(3vw, 15px);
+    font-weight: bold;
+    text-decoration: none; 
+    color:#000000;
+}
+
+#instaS:hover{
+    color:#b25abf;
+}
+
+#emailS{
+    font-size: min(3vw, 15px);
+    font-weight: bold;
+    text-decoration: none; 
+    color:#000000;
+}
+
+#emailS:hover{
+    color:#b25abf;
+}
+
+/* Definindo a estilização do html scrollbar*/
+html ::-webkit-scrollbar {
+    height: 14px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #770089;
+}
+
+html ::-webkit-scrollbar-track {
+    background: #ededed;
+}
