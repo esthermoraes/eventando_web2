@@ -1,19 +1,23 @@
 <?php
 	require_once('connect_mobile.php');
     require_once('autenticacao.php');
-
+    
     // array de resposta
     $resposta = array();
 
     // verifica se o usuário conseguiu autenticar
-    if(autenticar($db_con)) {
-        // Se sim, indica que o login foi realizado com sucesso.
-        $resposta["sucesso"] = 1;
-    }
+    if (autenticar($db_con)) {
+        if (isset($_POST['atracoes_evento']) && isset($_POST['tipo_contato_evento']) && isset($_POST['contato_evento'])){
+
+        }
+        else {
+            $resposta["sucesso"] = 0;
+            $resposta["erro"] = "Campos requeridos não preenchidos";
+        }
+    } 
     else {
-        // senha ou usuario nao confere
         $resposta["sucesso"] = 0;
-        $resposta["erro"] = "Email ou senha não confere";
+        $resposta["erro"] = "Email ou senha não conferem";
     }
 
     // Fecha a conexao com o BD
@@ -21,4 +25,5 @@
 
     // Converte a resposta para o formato JSON.
     echo json_encode($resposta);
+
 ?>
